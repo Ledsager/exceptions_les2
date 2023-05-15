@@ -1,5 +1,4 @@
 package org.example;
-
 /*
 Если необходимо, исправьте данный код:
 try {
@@ -72,11 +71,12 @@ public static void printSum(Integer a, Integer b) throws FileNotFoundException {
 Ввод текста вместо числа не должно приводить к падению приложения, вместо этого, необходимо повторно запросить
 у пользователя ввод данных.
  */
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String str =getNullInUser();
+        String str = getNullInUser();
     }
 
 
@@ -97,6 +97,7 @@ public class Main {
         scanner.close();
         return indexs;
     }
+
     /*
     Разработайте программу, которая выбросит Exception, когда пользователь вводит пустую строку.
     Пользователю должно показаться сообщение, что пустые строки вводить нельзя.
